@@ -2,8 +2,6 @@
 
 function [dat,vcpmg,track_t,track] = FGP_cpmg_sim(K,Cyp_Conc=1e-3,FGP_Conc=6e-3,w_bound=[45,90],time_T2=20,ncyc=[2:2:20],SIMPLE_CPMG=0,dead_enzyme=0,Natoms=1e5) 
 
-#UPDATE?
-
 kab=K(1);
 kba=K(2);
 kbc=K(3);
